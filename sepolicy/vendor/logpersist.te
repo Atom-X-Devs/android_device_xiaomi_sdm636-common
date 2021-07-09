@@ -1,0 +1,4 @@
+allow logpersist logpersist:capability { dac_read_search };
+allow logpersist media_rw_data_file:dir { add_name  open  read  search  write };
+allow logpersist media_rw_data_file:file { append  create  getattr  ioctl };
+
