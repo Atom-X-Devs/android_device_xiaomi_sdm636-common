@@ -85,6 +85,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl:32 \
     android.hardware.audio.effect@6.0-impl:32 \
+    android.hardware.audio@2.0-service \
+    android.hardware.audio4.0-service \
     android.hardware.audio.service \
     audio.a2dp.default \
     audio.primary.sdm660 \
