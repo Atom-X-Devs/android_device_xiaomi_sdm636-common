@@ -1,2 +1,2 @@
-allow ims sysfs:file { read };
+allow ims sysfs:file { read open };
 allow init firmware_file:filesystem { getattr };
